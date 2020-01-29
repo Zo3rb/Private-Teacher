@@ -1,0 +1,46 @@
+// Styling Carousel Header Here 
+.carousel-inner .carousel-item img {
+    max-height: 700px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption h5 {
+    text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+}
+
+// Styleing The About Us Section Here 
+.card-img-overlay {
+    margin-top: 400px;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+
+// Styleing the Service section 
+.service {
+    height: 400px;
+    background: url("../img/servicebg.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.service h2 {
+    margin: 100px auto;
+    text-shadow: 5px 5px 5px black;
+}
+
+// Styling The Footer Section Here
+//For jQuery Plugins
+.active {
+    color: #007bff !important;
+    font-weight: bold;
+}
+
+.goTop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+}
